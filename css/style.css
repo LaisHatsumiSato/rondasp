@@ -1,0 +1,74 @@
+
+body{
+    font: 20px Arial, sans-serif;
+}
+header{
+    color:white;
+}
+
+.quem-somos{
+    background-color: cornflowerblue;
+    color: white;
+}
+.margin{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.parceiros{
+    background-color: slateblue;
+    color: snow;
+}
+
+.bg-footer{
+    background-color: black;
+    color: white;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav-link {
+  padding-right: navbar-nav-link-padding-x;
+  padding-left: navbar-nav-link-padding-x;
+}
+ .nav-link-active{
+    padding: auto;
+ }
+ .nav-item{
+     padding: auto;
+ }
+ .navbar-collapse {
+   display: flex !important; 
+   flex-basis: auto;
+ }
+ .navbar-toggler {
+   display: none;
+ }
+ .navbar-expand-md .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.collapse:not(.show) {
+    display: none;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
